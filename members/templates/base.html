@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+        <img src="{% static 'vacations.png'%}" alt="" width="10%">
+      </div>
+      <H1> Disini Ada Banyak Wahana </H1>
+  </nav>
+    <p> Rotary Coaster </p>
+    <p> Speed Flip </p>
+    <p> Drop Zone </p>
+    <p> Tagada </p>
+    <P> Paus Dangdut </P>
+    <li>
+        <a href="{% url 'wisata.html'}">wisata</a>
+    </li>
+</head>
+</body>
+</html>
